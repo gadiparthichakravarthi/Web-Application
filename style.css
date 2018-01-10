@@ -1,0 +1,26 @@
+header,main,footer
+{
+	min-width: 855px;
+}
+header .container, main .container, footer .container{
+	max-width: 855;
+	margin:auto;
+}
+body {
+	background: #E4F1FE;
+}
+header{
+	background: #52B3D9;
+}
+main{
+	background: #C5EFF7;
+}
+footer
+{
+	background:#013243;
+	color: #ECF0F1;
+
+}
+footer a{
+	color:#A2DED0;
+}
