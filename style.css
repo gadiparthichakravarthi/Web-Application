@@ -1,6 +1,8 @@
 header,main,footer
 {
 	min-width: 855px;
+	overflow: auto;
+}
 }
 header .container, main .container, footer .container{
 	max-width: 855;
@@ -9,18 +11,47 @@ header .container, main .container, footer .container{
 body {
 	background: #E4F1FE;
 }
+
 header{
 	background: #52B3D9;
+	}
+header h1 {
+	float: left;
+	width: 570;
+}
+header nav {
+	float : right;
+	width : 285;
 }
 main{
 	background: #C5EFF7;
+}
+main .cont {
+	float: left;
+
+}
+main .cont2 {
+	float: right;
 }
 footer
 {
 	background:#013243;
 	color: #ECF0F1;
+	text-align: center;
+	overflow: auto;
 
 }
 footer a{
 	color:#A2DED0;
+
 }
+footer .contact {
+	float: left;
+	width: 400;
+}
+footer .sitemap 
+{
+	float: right;
+	width: 485;
+}
+
