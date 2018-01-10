@@ -37,8 +37,9 @@ footer
 {
 	background:#013243;
 	color: #ECF0F1;
-	text-align: center;
+	
 	overflow: auto;
+	clear: both;
 
 }
 footer a{
@@ -47,11 +48,22 @@ footer a{
 }
 footer .contact {
 	float: left;
-	width: 400;
+	left: 20px;
+	width: 570px;
+	position: relative;
 }
-footer .sitemap 
+footer .sitemap
 {
 	float: right;
-	width: 485;
+	width: 285px;
+
+    
 }
+  /* footer h5, ul {
+	position: relative;
+	right: 20px;
+	float: right;
+	
+	
+}*/
 
